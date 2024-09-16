@@ -41,19 +41,15 @@ To automatically run the focus listener service on login:
     systemctl --user daemon-reload
     ```
 
-4. **Enable Service on Startup**: Add the following command to **Startup Applications**:
-
-    ```bash
-    systemctl --user enable cs2-focus-listener.service
-    ```
-
-5. **Start the Service Immediately**: To start the service without waiting for the next login, run:
+4. **Enable Service on Login**: Add the following command to **Startup Applications**:
 
     ```bash
     systemctl --user start cs2-focus-listener.service
     ```
 
-6. **Check Service Status**: Verify if the service is active:
+    To start the service immediately without waiting for the next login, run the same command.
+
+5. **Check Service Status**: Verify if the service is active:
 
     ```bash
     systemctl --user status cs2-focus-listener.service
