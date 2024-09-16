@@ -1,0 +1,10 @@
+[Unit]
+Description=My CS2 Startup Script
+
+[Service]
+ExecStart=/bin/bash PATH_TO_THE/scripts/cs2-focus-listener.sh
+WorkingDirectory=PATH_TO_THE/scripts
+
+[Install]
+WantedBy=default.target
+
