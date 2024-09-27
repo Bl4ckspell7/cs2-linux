@@ -12,7 +12,7 @@ Designed to work under X11 on Ubuntu.
 
 ## Usage
 
-1. **Copy Scripts**: The `/scripts/` folder containing the scripts can be placed anywhere on your system.
+1. **Copy Scripts**: The [`/scripts/`](./scripts) folder containing the scripts can be placed anywhere on your system.
 2. **Set Permissions**: Ensure all files in the [`/scripts/`](./scripts) directory have execution permissions:
 
     ```bash
